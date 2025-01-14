@@ -1,0 +1,17 @@
+[package]
+name = "synth"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cpal = "0.15.2"
+eframe = "0.24.1"
+rand = { version = "0.8.5", features = ["small_rng"] }
+midly = "0.5.3"
+
+[dependencies.winapi]
+version = "0.3.9"
+features = [
+    "winuser",
+    "windef",
+] 

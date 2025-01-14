@@ -1,0 +1,5 @@
+[target.x86_64-pc-windows-msvc]
+rustflags = ["-C", "target-feature=+crt-static", "-C", "link-args=/SUBSYSTEM:WINDOWS /ENTRY:mainCRTStartup"]
+
+[build]
+target = "x86_64-pc-windows-msvc" 
